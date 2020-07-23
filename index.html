@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Apoorva's Portfolio</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -49,7 +49,8 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Apoorva Ullas</h1>
-            <h2>Year 4, Computer Science</h2>
+            <h2>Master of Computing (Computer Science) Graduate</h2>
+            <a href="documents/Resume.pdf" class="btn-rounded-white"> Download Resume </a>
         </div>
         <!-- End #lead-content -->
 
@@ -71,8 +72,8 @@
                     <h2 class="heading">About Me</h2>
                 </div>
                 <div class="col-md-8">
-                    <p>
-                        Hi, I'm Apoorva, a Year 4 student passionate about Computer Science. I'm currently pursuing Computer Security and Software Engineering as my focus areas. 
+                    <p align="justify">
+                    Hi, I am Apoorva, a Master’s in Computer Science graduate from NUS. I specialized in Computer Security and did an internship as an embedded security intern at GovTech. I also have experience with web application development as I developed an application for a start-up and created a progress-tracking tool for my Final Year Project. I enjoy challenges, which is why I took part in the Smart Living Hackathon and won “Best Hack” for having the best hack built in 24 hours out of 35 teams! 
                     </p>
                 </div>
             </div>
@@ -84,11 +85,23 @@
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
             <div data-date="January 2018 – June 2018">
-                <h3>Government Technology Agency of Singapore (GovTech) </h3>
+                <h3>GovTech</h3>
                 <h4>Embedded Security Intern</h4>
+                <p align="justify">
+                    I worked with the Sensors and IoT team at GovTech to design and implement embedded securiy solutions for the Smart Lamp Post project. I created a Software Development Kit (SDK) to allow engineers to use these security solutions with any IoT devices for future projects as well. 
+                    I integrated the TPM as a crypto-processor into the security solution, and got certified in my use of the TPM for development work by Infineon during the internship. 
+                </p>  
+            </div>
+            <div data-date="September 2017 – November 2017">
+                <h3>Timeliss</h3>
+                <h4>Frontend Developer</h4>
+                <p align="justify">
+                	Timeliss is a startup specializing in legacy planning and creation services. As a Frontend Developer, I collaborated with the in-house designers and implemented the user interfaces for the corporate pages, login, signup, will-writing interface and risk analysis interface. 
+                </p> 
                 <p>
-                    I worked with the Sensors and Internet of Things (IoT) team at GovTech to implement the Public Key Infrastructure (PKI) for the Smart Nation Sensor Platform (SNSP) Project. I used cryptoprocessors such as the Infineon OPTIGA TPM (Trusted Platform Module) with the Raspberry Pi to secure the Data Distribution Service (DDS) used in the Smart Lampost Project. 
-                </p>
+                    Technologies used: React, HTML, CSS, JavaScript
+                </p> 
+                <a href="https://www.timeliss.com/">View website</a>
             </div>
         </div>
     </div>
@@ -98,8 +111,15 @@
         <h2 class="heading">Education</h2>
         <div class="education-block">
             <h3>National University of Singapore (NUS)</h3>
-            <span class="education-date">August 2016 - July 2019</span>
+            <span class="education-date">August 2019 - June 2020</span>
+            <h4>Master of Computing (Computer Science)</h4>
+            <h4 style="color:black">Graduated with Highest Distinction</h4>
+        </div>
+        <div class="education-block">
+            <h3>National University of Singapore (NUS)</h3>
+            <span class="education-date">August 2016 - June 2019</span>
             <h4>Bachelor of Computing (Honours) in Computer Science</h4>
+            <h4 style="color:black">Graduated with Honours (Distinction)</h4>
         </div>
         <!-- End .education-block -->
     </div>
@@ -111,58 +131,50 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/timeliss.jpg" />
-                    </div>
-                    <div class="project-info">
-                        <h3>Timeliss</h3>
-                        <p>
-                            Timeliss is a startup specializing in legacy planning and creation services. 
-                        </p>
-                        <p>
-                            As a Frontend Developer, I collaborated with the in-house designers and implemented the user interfaces for the corporate pages, login, signup, will-writing interface and risk analysis interface with my team members.
-                        </p>
-                        <p>
-                            Technologies used: React, HTML, CSS, JavaScript
-                        </p>
-                        <a href="https://www.timeliss.com/">View website</a>
-                    </div>
-                </div>  
-
-               	<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/ml.jpg" />
-                    </div>
-                    <div class="project-info">
-                        <h3>RSNA Pneumonia Detection</h3>
-                        <p>
-                            RSNA Pneumonia Detection applies machine learning to diagnose pneumonia using chest x-rays.
-                        </p>
-                        <p>
-                            As part of the RSNA Pnuemonia Detection Challenge by Kaggle, my team successfully implemented 3 machine learning models for this task: YOLOv3, RetinaNet and Mask RCNN. We compared the 3 models in terms of their neural network architectures, hyperparameters used and effectiveness for given task. 
-                        </p>
-                        <p>
-                            Technologies used: Python
-                        </p>
-                        <a href="http://isteps.comp.nus.edu.sg/event/13th-steps/module/CS3244/project/9/">View our project presentation</a>
-                    </div>
-                </div>  
-
-                <div class="project shadow-large">
-                    <div class="project-image">
                         <img src="images/RepoSense.png" />
                     </div>
                     <div class="project-info">
-                        <h3>RepoSense (Ongoing) </h3>
-                        <p>
+                        <h3>RepoSense (Final Year Project) </h3>
+                        <p align="justify">
                             RepoSense is a contribution analysis tool for Git repositories. It is currently being used for software engineering modules in NUS.  
-                        </p>
-                        <p>
-                            As part of my BComp Dissertation, I am a part of the development team for RepoSense. I am working on improving the overall usefulness and usability of RepoSense by implementing end-to-end features. One of the features I've implemented so far include incorporating a breakdown by filetypes into the repository analysis. 
+                        	As part of the core development team, I implemented features to enhance the usefulness and usability of the tool. I also reviewed Pull Requests submitted by developers who wanted to contribute code to the tool. 
                         </p>
                         <p>
                             Technologies used: Java, Jade, Vue.js, Javascript
                         </p>
-                        <a href="https://nus-cs2103-ay1819s1.github.io/cs2103-dashboard/#=undefined&search=&sort=displayName&since=2018-09-12&until=2018-10-08&timeframe=day&reverse=false&repoSort=true/">View a sample RepoSense report for a module at NUS</a>
+                        <a href="https://reposense.org/">View website</a>
+                    </div>
+                </div>                  
+            </div>
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/hackathon.png" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Living Hackathon </h3>
+                        <p align="justify">
+                        	When my friends and I participated in the Smart Living Hackathon, we were tasked with exploring how voice technology can transform the way people live in under 24 hours. With 35 teams working on the same problem, we had to ensure our solution was creative enough to capture the attention of the judges. After many intensive brainstorming sessions and pitches to the various partners of the hackathon, we developed a working prototype which we demonstrated to a panel of judges and live audience and <strong>won “Best Hack”</strong>!
+                        </p>
+                        <a href="https://www.comp.nus.edu.sg/news/archives/y2018/2641-2018-smart-living-hack/">View article</a>
+                    </div>
+                </div>                  
+            </div>
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/fms.png" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Find My Soulmate!</h3>
+                        <p align="justify">
+                        	Find My Soulmate! is a matchmaking service which identifies the user’s match based on how compatible they are with someone. The service determines the user’s personality based on his/her past behaviour on Facebook and uses it to find a match with other users. The application was hosted on AWS and uses IBM's Personality Insights Services to determine the user's personality.
+                        </p>
+                        <p>
+                            Technologies used: AWS, IBM Watson, Facebook Graph API, Vue.js, Javascript, HTML 
+                        </p>
+                        <a href="documents/poster.pdf">View poster</a></br></br>
+                        <a href="https://github.com/apoorva17/find-my-soulmate">View repository</a>
                     </div>
                 </div>                  
             </div>
@@ -176,17 +188,21 @@
             <li>Java</li>
             <li>C</li>
             <li>C++</li>
-            <li>HTML</li>
-            <li>JavaScript</li>
-            <li>Vue.js</li>
             <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Vue.js</li>
             <li>Node.js</li>
-            <li>AngularJs</li>
             <li>React</li>
-            <li>MATLAB</li>
             <li>Bootstrap</li>
             <li>PHP</li>
-            <li>D3</li>
+            <li>XML</li>
+            <li>JSON</li>
+            <li>AWS</li>
+            <li>IBM Cloud</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
             <li>Git</li>
             <li>Django</li>
             <li>Laravel</li>
@@ -196,18 +212,27 @@
     <!-- End #skills -->
 
     <div class="optional-section background-alt">
-            <h2 class="heading">Awards & Certifications</h2>
+            <h2 class="heading">Awards</h2>
             <div class="optional-section-block">
-                <a href="https://www.comp.nus.edu.sg/news/2641-2018-smart-living-hack/"><h3>Best Hack</h3></a>
-                <h4>Won "Best Hack" award at the Smart Living Hackathon 2018. </h4>
+                <h3>Best Hack</h3></a>
+                <h4>Won "Best Hack" award at the Smart Living Hackathon. </h4>
             </div>
             <div class="optional-section-block">
                 <h3>Certificate of Distinction in Computer Security</h3>
-                <h4>Awarded for excelling in my Computer Security focus area at NUS</h4>
+                <h4>Awarded for excelling in Computer Security focus area at NUS</h4>
             </div>
              <div class="optional-section-block">
                 <h3>Certificate of Distinction in Software Engineering</h3>
-                <h4>Awarded for excelling in my Software Engineering focus area at NUS</h4>
+                <h4>Awarded for excelling in Software Engineering focus area at NUS</h4>
+            </div>
+    </div>
+    <!-- End .optional-section -->
+
+    <div class="optional-section background-alt">
+            <h2 class="heading">Certifications</h2>
+             <div class="optional-section-block">
+                    <h3>Ethical Web Hacking</h3>
+                    <h4>Completed 10-week course on web application penetration testing</h4>
             </div>
             <div class="optional-section-block">
                 <a href="https://www.youracclaim.com/badges/638cfc18-789f-4010-9838-037480d6c55b/public_url"><h3>SAS Certified Visual Business Analyst</h3></a>
@@ -240,7 +265,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2018 APOORVA ULLAS
+                        Copyright &copy; 2020 APOORVA ULLAS
                     </p>
                 </div>
                 <div class="col-sm-2 top">
